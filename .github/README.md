@@ -31,8 +31,12 @@ The official Home Page of the OpenSSL Project is [www.openssl.org](https://www.o
 
 ## Download
 
-Source code tarballs of the official releases can be downloaded from [www.openssl.org/source](https://www.openssl.org/source). The OpenSSL project does not distribute the toolkit in binary form itself.
-www.openssl.org/source
+### For Productive Use
+
+Source code tarballs of the official releases can be downloaded from [www.openssl.org/source](https://www.openssl.org/source). The OpenSSL project does not distribute the toolkit in binary form itself. However, for a large variety of operating systems precompiled versions of the OpenSSL toolkit are available.
+
+### For Testing and Development
+
 You can obtain a local copy of the git repository by either cloning it from the original OpenSSL repository at [git.openssl.org](https://git.openssl.org)
 
 ```bash
@@ -45,7 +49,7 @@ or from this GitHub repository, which is a downstream mirror that is updated aut
     git clone https://github.com/openssl/openssl.git
 ```
 
-If you intend to contribute to OpenSSL, either to fix bugs or contribute new features, you should your own clone of the OpenSSL repository. All development of OpenSSL nowadays is done via GitHub pull requests.
+If you intend to contribute to OpenSSL, either to fix bugs or contribute new features, you should your own clone of the OpenSSL repository. All development of OpenSSL nowadays is done via GitHub pull requests. 
 
 
 ## Build and Install
@@ -64,6 +68,9 @@ The manual pages for the master branch and all current stable releases are avail
 - [OpenSSL 1.1.0](https://www.openssl.org/docs/man1.1.0)
 - [OpenSSL 1.0.2](https://www.openssl.org/docs/man1.0.2)
 
+### Wiki
+
+There is a Wiki at [wiki.openssl.org](https://wiki.openssl.org) which is currently not very active. It contains a lot of useful information, not all of which is up to date.
 
 ## License
 
@@ -116,3 +123,9 @@ The OpenSSL maintains a number of [mailing lists](https://www.openssl.org/commun
 - [openssl-dev](https://mta.openssl.org/mailman/listinfo/openssl-dev) for discussion about development of OpenSSL.
 
 The openssl-dev list has been discontinued since development is now taking place in form of GitHub pull requests. Although not active anymore, the searchable archive may still contain useful information.
+
+
+## Legalities
+
+A number of nations restrict the use or export of cryptography. If you are potentially subject to such restrictions you should seek competent professional legal advice before attempting to develop or distribute
+ cryptographic code.
